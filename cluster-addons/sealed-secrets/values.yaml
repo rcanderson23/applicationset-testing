@@ -1,7 +1,7 @@
 sealed-secrets:
   secretName: "sealed-secrets-key"
   serviceMonitor:
-    create: true
+    create: false
     interval:
     labels:
       release: prometheus-operator
